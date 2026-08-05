@@ -5,14 +5,14 @@ The repo for the paper Observation-Grounded Self-Predictive Reinforcement Learni
 We recommend creating a specific virtual environment for each benchmark to reduce the potential conflicts between dependencies.
 
 ### DeepMind Control suite (DMC)
-```
+```bash
 cd OG_SPR
 conda create -n dmc_env python=3.9
 pip install -r ./dmc_requirements.txt
 ```
 
 ### Atari
-```
+```bash
 cd OG_SPR
 conda create -n atari_env python=3.9
 pip install -r ./atari_requirements.txt
@@ -25,7 +25,7 @@ For each benchmark, we provide a specific script in the `algorithms` folder for 
 
 ## Training
 To run OG-SPR, please refer to the following examples:
-```
+```bash
 # run on the DMC (walker-run)
 nohup python -u /root/OG_SPR/algorithms/train_eval_dmc.py \
     --seed 42 \
@@ -46,7 +46,7 @@ nohup python -u /root/OG_SPR/algorithms/train_eval_atari.py \
 
 ## Evaluation
 We use TensorBoard to record evaluation results during training. Users can find the TensorBoard files in `log_writer_path` printed at the top of the content in the log file (e.g., `/root/OG_SPR/Krull_atari_ogspr.log`). Below is a usage example of TensorBoard:
-```
+```bash
 tensorboard --logdir {log_writer_path} --port 6006
 ```
 
