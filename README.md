@@ -1,7 +1,7 @@
 # OG-SPR
 The repo for the paper Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control.
 
-OG-SPR is a method designed for visual reinforcement learning. It significantly outperforms state-of-the-art model-based RL methods, including **[DreamerV3](https://github.com/danijar/dreamerv3)** and **[TD-MPC2](https://github.com/nicklashansen/tdmpc2)**, as well as the model-free RL method **[MR.Q](https://github.com/facebookresearch/MRQ)**, on challenging robotic control tasks such as the Dog and Humanoid domains.
+OG-SPR is a method designed for visual reinforcement learning. It significantly outperforms state-of-the-art model-based RL methods, including **[DreamerV3](https://github.com/danijar/dreamerv3)** and **[TD-MPC2](https://github.com/nicklashansen/tdmpc2)**, as well as the model-free RL method **[MR.Q](https://github.com/facebookresearch/MRQ)**, on **challenging robotic control tasks such as the Dog and Humanoid domains.**
 
 <img src="assets/table.png" width="90%">
 
