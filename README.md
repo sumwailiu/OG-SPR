@@ -11,7 +11,7 @@ OG-SPR is a model-free RL method designed for visual reinforcement learning. It 
 
 <img src="assets/table.png" width="80%">
 
-<img src="assets/curve2.png" width="60%">
+<img src="assets/curve2.png" width="65%">
 
 ## Installation
 We recommend creating a specific virtual environment for each benchmark to reduce the potential conflicts between dependencies.
